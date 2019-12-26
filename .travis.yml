@@ -28,7 +28,7 @@ matrix:
 
 script:
   - cargo update
-  - cargo test --all --features="user, clock, files" # --all-features # TODO
+  - cargo test --all --features="journal, user, clock, files" # --all-features # TODO
 
 notifications:
   email: false

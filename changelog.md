@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://code.plopgrizzly.com/s
 ### TODO
 - Possibly redesign the controller API to be event based using a message queue.
 
+### Added
+- Added `journal` feature for journal output.
+
+### Changed
+- Replace `info!()` with `out!()`, `warn!()` with `fix!()`, and `note!()` with
+  `dev!()`.
+
 ## [0.7.0] - 2019-11-04
 ### Added
 - Logging macros `info!()`, `warn!()` and `note!()`

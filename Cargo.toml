@@ -38,6 +38,7 @@ window = {version = "0.3", optional = true}
 fonterator = {version = "0.6", optional = true, default-features = false, features = ["normal-font"]}
 rvg = {version = "0.0.3", optional = true, features = ["footile"]}
 chrono = {version = "0.4", optional = true} # clock
+devout = {version = "0.0", optional = true} # journal
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 stdweb = "0.4"
@@ -58,3 +59,4 @@ graphics = ["window", "fonterator", "timer", "res", "rvg"]
 camera = []
 clock = ["chrono", "timer"]
 timer = []
+journal = ["devout"]
