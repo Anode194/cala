@@ -3,7 +3,7 @@
 //! # Usage
 //! ```rust
 //! use cala::journal;
-//! 
+//!
 //! journal::fix!("FIXME: {}", 12);
 //! journal::dev!("Test: {}", 40);
 //! journal::out!("Result: {}", 4.4);
