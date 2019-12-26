@@ -44,13 +44,13 @@ feature, you might put this in your `Cargo.toml`:
 <!--
 ```toml
 [dependencies.cala]
-version = "0.5"
+version = "0.8"
 features = ["audio", "clock"]
 ```
 -->
 
 <p style="width:100%"><pre lang="toml"><code><span style="color:#FFF;font-weight:bold;">[dependencies.cala]</span>
-<span style="color:#0F0;font-weight:bold;">version</span> = <span style="color:#0F0">"0.5"</span>
+<span style="color:#0F0;font-weight:bold;">version</span> = <span style="color:#0F0">"0.8"</span>
 <span style="color:#0F0;font-weight:bold;">features</span> = [<span style="color:#0F0">"audio"</span>, <span style="color:#0F0">"clock"</span>]</code></pre></p>
 
 There is a module for each feature (feature and module names match).  Module documentation may include simple tutorials.  More in depth tutorials may be
@@ -59,12 +59,12 @@ found [here](https://libcala.github.io/tutorials).
 ## Features
 Here's a list of the features, with links to documentation.
 
-- [`user`](https://docs.rs/cala/0.5.0/cala/user/index.html) - Getting user information
-- [`audio`](https://docs.rs/cala/0.5.0/cala/audio/index.html) - Playing / recording audio
-- [`clock`](https://docs.rs/cala/0.5.0/cala/clock/index.html) - Date, Time of day, Timer
-- [`controller`](https://docs.rs/cala/0.5.0/cala/controller/index.html) - Game Controller - JoyStick
-- [`files`](https://docs.rs/cala/0.5.0/cala/files/index.html) - Containerized filesystem loading / saving ZIP files
-- [`graphics`](https://docs.rs/cala/0.5.0/cala/graphics/index.html) - Render and User Interface
+- [`user`](https://docs.rs/cala/0.8.0/cala/user/index.html) - Getting user information
+- [`audio`](https://docs.rs/cala/0.8.0/cala/audio/index.html) - Playing / recording audio
+- [`clock`](https://docs.rs/cala/0.8.0/cala/clock/index.html) - Date, Time of day, Timer
+- [`controller`](https://docs.rs/cala/0.8.0/cala/controller/index.html) - Game Controller - JoyStick
+- [`files`](https://docs.rs/cala/0.8.0/cala/files/index.html) - Containerized filesystem loading / saving ZIP files
+- [`graphics`](https://docs.rs/cala/0.8.0/cala/graphics/index.html) - Render and User Interface
 - Camera - Webcam [unimplemented](https://github.com/libcala/cala/issues/1)
 - Network - Bluetooth & Wifi Direct [unimplemented](https://github.com/libcala/cala/issues/10)
 - Hardware acceleration - SIMD, GPU [unimplemented](https://github.com/libcala/cala/issues/11)

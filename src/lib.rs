@@ -44,13 +44,13 @@
 //! <!--
 //! ```toml
 //! [dependencies.cala]
-//! version = "0.5"
+//! version = "0.8"
 //! features = ["audio", "clock"]
 //! ```
 //! -->
 //!
 //! <p style="width:100%"><pre lang="toml"><code><span style="color:#FFF;font-weight:bold;">[dependencies.cala]</span>
-//! <span style="color:#0F0;font-weight:bold;">version</span> = <span style="color:#0F0">"0.5"</span>
+//! <span style="color:#0F0;font-weight:bold;">version</span> = <span style="color:#0F0">"0.8"</span>
 //! <span style="color:#0F0;font-weight:bold;">features</span> = [<span style="color:#0F0">"audio"</span>, <span style="color:#0F0">"clock"</span>]</code></pre></p>
 //!
 //! There is a module for each feature (feature and module names match).  Module documentation may include simple tutorials.  More in depth tutorials may be
