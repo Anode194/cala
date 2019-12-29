@@ -49,9 +49,9 @@ features = ["audio", "clock"]
 ```
 -->
 
-<p style="width:100%"><pre lang="toml"><code><span style="color:#FFF;font-weight:bold;">[dependencies.cala]</span>
-<span style="color:#0F0;font-weight:bold;">version</span> = <span style="color:#0F0">"0.8"</span>
-<span style="color:#0F0;font-weight:bold;">features</span> = [<span style="color:#0F0">"audio"</span>, <span style="color:#0F0">"clock"</span>]</code></pre></p>
+<p style="width:100%"><pre lang="toml"><code><b>[dependencies.cala]</b>
+<b><i>version</i></b> = <i>"0.8"</i>
+<b><i>features</i></b> = [<i>"audio"</i>, <i>"clock"</i>]</code></pre></p>
 
 There is a module for each feature (feature and module names match).  Module documentation may include simple tutorials.  More in depth tutorials may be
 found [here](https://libcala.github.io/tutorials).
